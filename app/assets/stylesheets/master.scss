@@ -12,6 +12,18 @@
 	padding: 20px;
 }
 
+.navbar {
+	background: image_url('linen.png');
+	/*box-shadow: 0px 1px 3px #2a2a2a;*/
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+body {
+	-webkit-font-smoothing: antialiased;
+	font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 300;
+}
+
 h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 	padding: 0;
