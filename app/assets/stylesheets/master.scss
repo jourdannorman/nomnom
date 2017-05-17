@@ -1,4 +1,5 @@
 @import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Barrio');
 
 .booyah-box {
 	-moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
@@ -18,10 +19,18 @@
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.navbar-inverse .navbar-brand {
+	color: #F20558;
+	/*font-family: 'Abril Fatface', cursive;*/
+	font-family: 'Barrio', cursive;
+	font-size: 26px;
+}
+
 body {
 	-webkit-font-smoothing: antialiased;
 	font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: 300;
+	font-size: 20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
